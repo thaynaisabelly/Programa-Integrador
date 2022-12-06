@@ -19,31 +19,40 @@ background-position: center;
 }
 
 /* Logo */
-div h2 {
+
+div a img {
+	max-width: 10%;
+	margin-top: 2%;
+}
+
+/* div h2 {
 	font-family: 'Roboto Slab', serif;
-	color: rgb(0, 195, 255);
+	color: rgb(0, 0, 0);
+	margin-top: 5%;
 }
 
 em {
 	font-family: 'Roboto Slab', serif;
-	color: rgb(0, 195, 255);
+	color: rgb(0, 0, 0);
 	font-size: larger;
-}
+} */
 
 section.header {
 	position: sticky;
 	background-size: cover;
-	background-color: #2530c2c0;
+	background-color: #ffffff;
 }
 
 /* Menu */
 nav {
 	margin: 0 auto;
 	max-width: 800px;
-	background: #2530c2c0;
+	background: #ffffff;
 	box-shadow:0 3px 15px rgba(11, 3, 56, 0.295);
-	top: 0%;
 	float: right;
+	position: relative;
+	border-radius: 15px;
+	
 }
 
 nav::after {
@@ -65,7 +74,7 @@ nav ul li {
 
 nav ul li a {
 	display: block;
-	color: rgba(195, 204, 255, 0.9);
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	padding: 1rem 2rem;
 	border-top: 2px solid transparent;
@@ -75,11 +84,11 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-	background: #ffffff48;
+	background: #363636;
 }
 
 nav ul li a:focus {
-	color: rgba(195, 204, 255, 0.9);
+	color: rgba(0, 38, 255, 0.9);
 }
 
 nav ul li a:not(:only-child)::after {
@@ -93,7 +102,7 @@ nav ul li ul li {
 
 nav ul li ul li a {
 	background: transparent;
-	color: #2530c2c0;
+	color: #363636;
 	border-bottom: 1px solid #DDE0E7;
 }
 
@@ -127,7 +136,7 @@ nav ul li ul li a:focus {
 
 /* Rodapé */
   .footer-basic {
-	background-color:#2530c2c0;
+	background-color:#ffffff;
 	color:#000000;
 	position: fixed;
 	top: 82.4%;
@@ -198,7 +207,7 @@ nav ul li ul li a:focus {
 	position: sticky;
 	max-width: 3%;
 	width: 3%;
-	right: 0%;
+	right: 1%;
 	float: right;
 
   }
